@@ -1,3 +1,9 @@
+Skills Boost - Tagging Dataplex Assets
+
+Skills Boost - Data Security and Governance on BigLake using Dataplex
+
+executar na maquina na linha de comando:
+
 PROJECT_ID=$(gcloud config get-value project)
 BUCKET_NAME="us-central1-$PROJECT_ID-sample-courses"
 gsutil mb -p $PROJECT_ID -l us-central1 gs://$BUCKET_NAME
